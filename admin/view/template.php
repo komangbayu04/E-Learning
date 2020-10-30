@@ -36,15 +36,15 @@
         <div class="row content">
           <div class="col-sm-3 sidenav">
             <ul class="nav nav-pills nav-stacked">
-              <li class="active"><a href="../admin/controller/siswa.php">Data Mahasisswa</a></li>
-              <li class="active"><a href="../admin/controller/siswa.php">Data Dosen</a></li>
+              <li class="active"><a href="../admin/controller/siswa.php">Data Mahasiswa</a></li>
+              <li class="active"><a href="../admin/controller/dosen.php">Data Dosen</a></li>
             </ul><br>
           </div>
           <div class="col-sm-9">
             <?php include_once $content;  ?>
           </div>
         </div>
-
+        
 </body>
 
 </html>
