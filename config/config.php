@@ -1,9 +1,11 @@
-<?php 
+<?php
+session_start();
 class Config{
-    function  koneksi(){
-        $conn=new mysqli('localhost','root','','db_learning');
+    function koneksi()
+    {
+        $conn = new mysqli('localhost', 'root', '', 'db_elearning');
         if($conn->connect_error){
-            $conn =die("Koneksi gagal : ". $conn->connect_error);
+            $conn = die("Koneksi gagal : " . $conn->connect_error);
             
         }
         return $conn;
